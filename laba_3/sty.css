@@ -1,0 +1,26 @@
+
+.container{
+    display: flex;    
+    margin: 100px;
+
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+
+
+.hideBlock {
+    display: none;
+}
+
+
+
+.musicBtn{
+
+
+    width: 500px;
+    height: 500px;
+
+}

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width   , initial-scale=1.0">
+    <link rel="stylesheet" href="sty.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="center_div">
+
+            <button onclick="StopAudio()" id="stopbtn" class="musicBtn">
+                <i class="fa-solid fa-stop fa-5x  " ></i>
+            </button>
+            
+            <button onclick="play_pause()" id="playbtn" class="musicBtn">
+                <i class="fas fa-play fa-5x " ></i>
+            </button>
+            
+            <button onclick="play_pause()" id="pausebtn" class="musicBtn hideBlock" >
+                <i class="fa-solid fa-pause fa-5x  " ></i>
+            </button>
+
+            <audio class="music_src " src="music.mp3" ></audio>
+            
+        </div>
+    </div>
+        <script src="sc.js"></script>
+</body>
+</html>
